@@ -137,3 +137,11 @@ pre {
         clear: both
     }
 }
+
+.rotate(@i) {
+    transform:rotate(@i);
+    -ms-transform:rotate(@i); /* Internet Explorer */
+    -moz-transform:rotate(@i); /* Firefox */
+    -webkit-transform:rotate(@i); /* Safari 和 Chrome */
+    -o-transform:rotate(@i); /* Opera */
+}

@@ -547,9 +547,8 @@
         height: 240px;
         width: 240px;
         float: left;
-        margin: 0 80px 0 80px;
+        margin: 10px 80px 0 80px;
         position: relative;
-        margin-top: 10px;
         img {
           height: 220px;
           width: 220px;
@@ -628,8 +627,7 @@
     }
     .p2 {
       width: 400px;
-      margin: 0 auto;
-      margin-top: 20px;
+      margin: 20px auto 0;
       float: left;
       position: relative;
       ul {
@@ -674,4 +672,79 @@
   height: 70px;
   box-shadow:0 -4px 5px -1px #CDCDC1;
   background-color: #DEDEDE;
+}
+
+
+
+// 我们的优势
+.superiority {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  &_nav {
+    position: absolute;
+    right: -20px;
+    top: 40%;
+    //transform: translateY(-50%);
+    li {
+      cursor: pointer;
+      border-radius: 20px;
+      line-height: 24px;
+      padding: 0 30px 0 20px;
+      color: #fff;
+      margin-top: 10px;
+      .rotate(-15deg);
+      &:first-child {
+        margin-top: 0;
+      }
+      &.green {
+        background-color: green;
+      }
+      &.orange {
+        background-color: orangered;
+      }
+      &.lightBlue {
+        background-color: lightblue;
+      }
+      &.blue {
+        background-color: cornflowerblue;
+      }
+      &.pink {
+        background-color: pink;
+      }
+      &.red {
+        background-color: red;
+      }
+    }
+  }
+}
+
+// 广告
+.ad {
+  position: relative;
+  background-color: #0d5292;
+  .buttons {
+    top: 0;
+    display: inline-block;
+    position: absolute;
+    width: 80px;
+    line-height: 295px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: #0e2b47;
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0;
+    }
+  }
+  .content {
+    height: 295px;
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url('../images/bg_01.gif');
+    background-position: center 0;
+  }
 }
