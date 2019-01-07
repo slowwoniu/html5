@@ -436,7 +436,7 @@
 }
 //加盟合作
 .join {
-  background: url("../images/绿色背景_16.gif") no-repeat;
+  background: url("../images/green_bg.gif") no-repeat;
   height: 550px;
   width: 100%;
   position: relative;
@@ -489,9 +489,8 @@
         line-height: 40px;
         text-align: center;
       }
-      .tubiao {
+      .icon {
         position: absolute;
-        background: url("../images/锁_11.gif") no-repeat;
         display: block;
         width: 40px;
         height: 60px;
@@ -499,29 +498,20 @@
         margin-top: 20px;
         left: 50%;
         margin-left: -20px;
+        &.tubiao {
+          background: url("../images/锁_11.gif") no-repeat;
+          background-size: contain;
+        }
+        &.tubiao-1 {
+          background: url("../images/锁2_32.gif") no-repeat;
+          background-size: contain;
+        }
+        &.tubiao-2 {
+          background: url("../images/电话_38.gif") no-repeat;
+          background-size: contain;
+        }
       }
-      .tubiao-1 {
-        position: absolute;
-        background: url("../images/锁2_32.gif") no-repeat;
-        display: block;
-        width: 35px;
-        height: 55px;
-        background-size: contain;
-        margin-top: 20px;
-        left: 50%;
-        margin-left: -20px;
-      }
-      .tubiao-2 {
-        position: absolute;
-        background: url("../images/电话_38.gif") no-repeat;
-        display: block;
-        width: 40px;
-        height: 60px;
-        background-size: contain;
-        margin-top: 20px;
-        left: 50%;
-        margin-left: -20px;
-      }
+
       .phone {
         position: absolute;
         font-size: 10px;
@@ -655,10 +645,8 @@
         }
       }
       .p2-1 {
-        display: inline-block;
-        position: absolute;
-        top: 25px;
-        left: 50px;
+        text-align: center;
+        margin-top: 8px;
       }
     }
     .p3 {
