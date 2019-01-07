@@ -459,7 +459,7 @@ pre {
   top: 200px;
 }
 .pre:before {
-  contain: "";
+  content: "";
   background: url("../images/优势箭头_11.gif");
   height: 35px;
   width: 35px;
@@ -558,5 +558,303 @@ pre {
 .blueb .set span {
   font-size: 17px;
   font-weight: bold;
+}
+.brand {
+  height: 220px;
+  width: 1300px;
+  margin: 0 auto;
+}
+.brand .bra-tit {
+  font-size: 16px;
+  color: #525252;
+  text-align: center;
+  margin-top: 10px;
+}
+.brand .bra-nav {
+  height: 140px;
+}
+.brand .bra-nav img {
+  margin: 20px 8px 10px 8px;
+}
+.join {
+  background: url("../images/绿色背景_16.gif") no-repeat;
+  height: 550px;
+  width: 100%;
+  position: relative;
+}
+.join .jm {
+  position: relative;
+  width: 130px;
+  height: 30px;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: #ffffff solid 1px;
+  border-radius: 6px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -2px;
+  padding-top: 5px;
+}
+.join .yuan {
+  height: 210px;
+  width: 880px;
+  margin: 0 auto;
+  margin-top: 140px;
+  *zoom: 1;
+}
+.join .yuan:after,
+.join .yuan:before {
+  content: "";
+  display: table;
+}
+.join .yuan:after {
+  clear: both;
+}
+.join .yuan .yuan-1 {
+  height: 210px;
+  width: 210px;
+  float: left;
+  margin: 0 40px 0 40px;
+  position: relative;
+}
+.join .yuan .yuan-1 img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 3px #DCDCDC inset;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.join .yuan .yuan-1 .qp {
+  content: "";
+  width: 70px;
+  height: 50px;
+  background-size: contain;
+  background-image: url("../images/灰色气泡_17.gif");
+  position: absolute;
+  display: inline-block;
+  bottom: 210px;
+  left: 70px;
+  font-size: 12px;
+  color: #F5F5F5;
+  margin-top: 20px;
+  line-height: 40px;
+  text-align: center;
+}
+.join .yuan .yuan-1 .tubiao {
+  position: absolute;
+  background: url("../images/锁_11.gif") no-repeat;
+  display: block;
+  width: 40px;
+  height: 60px;
+  background-size: contain;
+  margin-top: 20px;
+  left: 50%;
+  margin-left: -20px;
+}
+.join .yuan .yuan-1 .tubiao-1 {
+  position: absolute;
+  background: url("../images/锁2_32.gif") no-repeat;
+  display: block;
+  width: 35px;
+  height: 55px;
+  background-size: contain;
+  margin-top: 20px;
+  left: 50%;
+  margin-left: -20px;
+}
+.join .yuan .yuan-1 .tubiao-2 {
+  position: absolute;
+  background: url("../images/电话_38.gif") no-repeat;
+  display: block;
+  width: 40px;
+  height: 60px;
+  background-size: contain;
+  margin-top: 20px;
+  left: 50%;
+  margin-left: -20px;
+}
+.join .yuan .yuan-1 .phone {
+  position: absolute;
+  font-size: 10px;
+  color: chartreuse;
+  margin-top: 80px;
+  left: 50%;
+  margin-left: -66px;
+}
+.demo {
+  width: 100%;
+  height: 450px;
+}
+.demo .ppt {
+  font-size: 16px;
+  color: #5f6261;
+  text-align: center;
+  line-height: 50px;
+}
+.demo .red {
+  height: 400px;
+  width: 100%;
+  background-color: orangered;
+}
+.demo .red .red-1 {
+  width: 800px;
+  height: 250px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.demo .red .red-1:after,
+.demo .red .red-1:before {
+  content: "";
+  display: table;
+}
+.demo .red .red-1:after {
+  clear: both;
+}
+.demo .red .red-1 .gar {
+  height: 240px;
+  width: 240px;
+  float: left;
+  margin: 0 80px 0 80px;
+  position: relative;
+  margin-top: 10px;
+}
+.demo .red .red-1 .gar img {
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #ffffff;
+}
+.demo .red .red-1 .gar .anniu {
+  position: absolute;
+  height: 60px;
+  width: 80px;
+  background: url("../images/客户_15.gif") no-repeat;
+  background-size: contain;
+  left: 50%;
+  margin-left: -40px;
+  top: -18px;
+}
+.demo .red .red-1 .gar .zx {
+  position: absolute;
+  background: url("../images/左箭头_19.gif") no-repeat;
+  height: 50px;
+  width: 70px;
+  background-size: contain;
+  font-size: 10px;
+  color: #F5F5F5;
+  text-align: center;
+  line-height: 50px;
+  left: 0;
+  margin-top: 15px;
+}
+.demo .red .red-1 .gar .zx-1 {
+  position: absolute;
+  background: url("../images/右箭头_22.gif") no-repeat;
+  height: 50px;
+  width: 70px;
+  background-size: contain;
+  font-size: 10px;
+  color: #F5F5F5;
+  text-align: center;
+  line-height: 50px;
+  right: 0;
+  margin-top: 15px;
+}
+.db {
+  height: 70px;
+  width: 100%;
+  padding-top: 20px;
+}
+.db .db-1 {
+  width: 600px;
+  height: 70px;
+  margin: 0 auto;
+  color: #868686;
+  font-size: 12px;
+  *zoom: 1;
+}
+.db .db-1:after,
+.db .db-1:before {
+  content: "";
+  display: table;
+}
+.db .db-1:after {
+  clear: both;
+}
+.db .db-1 .p1 {
+  float: left;
+  width: 100px;
+  margin-top: 50px;
+  position: relative;
+}
+.db .db-1 .p1:before {
+  content: "";
+  height: 50px;
+  width: 40px;
+  position: absolute;
+  background: url("../images/问题_11.gif") no-repeat;
+  background-size: contain;
+  display: inline-block;
+  top: -40px;
+  left: 4px;
+}
+.db .db-1 .p2 {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  float: left;
+  position: relative;
+}
+.db .db-1 .p2 ul {
+  width: 400px;
+  *zoom: 1;
+}
+.db .db-1 .p2 ul:after,
+.db .db-1 .p2 ul:before {
+  content: "";
+  display: table;
+}
+.db .db-1 .p2 ul:after {
+  clear: both;
+}
+.db .db-1 .p2 ul li {
+  float: left;
+  border-right: 1px solid #939393;
+  padding: 0 15px;
+}
+.db .db-1 .p2 ul li:last-child {
+  border-right: none;
+}
+.db .db-1 .p2 .p2-1 {
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+}
+.db .db-1 .p3 {
+  float: right;
+  width: 100px;
+  margin-top: 20px;
+  text-align: right;
+  position: relative;
+}
+.db .db-1 .p3:before {
+  content: "";
+  position: absolute;
+  background: url("../images/加关注_14.gif") no-repeat;
+  width: 60px;
+  height: 30px;
+  background-size: contain;
+  display: inline-block;
+  left: 105px;
+  top: -2px;
+}
+.bor {
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 -4px 5px -1px #CDCDC1;
+  background-color: #DEDEDE;
 }
 /*# sourceMappingURL=index.css.map */
